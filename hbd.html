@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c046485bbd.js" crossorigin="anonymous"></script>
+    <title>Aniversariante</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="header" id="header">
+      <a href="#" class="logo">Feliz Aniversário</a>
+      <input class="search" placeholder="Pesquisar...">
+      <button class="button" type="submit"><i class="fas fa-search"></i></button>
+    </nav>   
+     <nav class="navbar" id="navBar">
+      <li><a href="#">Home</a></li>
+      <li><a href="https://web.facebook.com/emersom.cristovaomaquina"">Amor</a></li>
+      <li><a href="https://web.facebook.com/eugeniagomes.gomes.581/photos_by">Fotos</a></li>
+    </nav>
+
+    <div> 
+      <p>No brilho dos teus olhos
+Encontro o meu abrigo<br>
+Em teus braços seguros<br>
+Sinto o amor que é infinito<br>
+
+Teu sorriso ilumina<br>
+Minha vida, meu ser<br>
+E nesse amor profundo<br>
+Eu encontro o meu viver<br>
+
+Teu toque suave<br>
+Como brisa a acariciar<br>
+Teus lábios doces<br>
+Como mel a me adoçar<br>
+
+Em teus braços me entrego<br>
+Ao amor que nos consome<br>
+E juntos construímos<br>
+Uma eterna sinfonia de paixão<br>
+
+No compasso do teu coração<br>
+Meu amor encontra sua melodia<br>
+Cada batida é uma canção<br>
+Que embala nossa harmonia<br>
+
+Teus olhos são estrelas<br>
+Que iluminam meu caminho<br>
+E nessa dança dos sentimentos<br>
+Somos um só, em amorinho<br>
+
+Teus beijos são poesia<br>
+Que escrevo em minha pele<br>
+Cada toque é uma rima<br>
+Que me faz sentir tão leve<br>
+
+Em teus braços sou poeta<br>
+E na tua voz encontro a melodia<br>
+Juntos somos versos perfeitos<br>
+Nessa história de amor que se inicia<br>
+
+Te amarei até o fim dos tempos<br>
+Como as ondas beijam a praia<br>
+Como o sol aquece o dia<br>
+Teu amor é minha eterna fantasia<br>
+
+Em teus abraços encontro paz<br>
+E em teus olhos vejo o infinito<br>
+Nessa jornada de amor e cumplicidade<br>
+Somos dois corações em um só grito</p>
+    </div>
+    <div class="container">
+      <div class="card">
+        <img src="imag/img1.JPG"> <!-- Aqui você pode adicionar uma imagem -->
+      </div>
+      <div class="card">
+        <img src="imag/img2.JPG"> <!-- Aqui você pode adicionar uma imagem -->
+      </div>
+      <div class="card">
+        <img src="imag/img3.JPG"> <!-- Aqui você pode adicionar uma imagem -->
+      </div>
+    </div>
+    <div class="quote-container">
+      <p id="quote"></p>
+      <a class="neon" onclick="generateQuote()">!Surpresa!</a>
+      
+    </div>
+    <script src="script.js"></script>
+    <script>window.onscroll=function() {myFunction()};
+    var header=document.getElementById("navBar");
+    function myFunction(){
+      if (window.pageYOffset > sticky){
+        header.classList.add("sticky");
+      }
+      else{
+        header.classList.remove("sticky");
+    }
+  }
+    </script>
+  </body>
+</html>
